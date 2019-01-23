@@ -1,0 +1,18 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #ffF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.dropdown-menu li>a{color:white; }
+.dropdown-menu>li{padding:5px; border-bottom:1px solid white;border-left:1px 
+          solid white;border-right:1px solid white }
+.dropdown-menu li>a:hover{background:white; }
